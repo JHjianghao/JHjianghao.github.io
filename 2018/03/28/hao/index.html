@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>作业 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="数组的定义： 1.数据类型[] 数组名 =  new 数据类型[数组长度] 例：int[] num = new int[5]; 表明定义一个整型类型的数组，数组名为num，数组长度为5。 int[] num = new int[]{ 3，4，2，5}; 注意： 1.数组下标从0开始，例：a(0),a(1)…. 2.java里要给数组分配空间。 数组的使用： public class Ex1{  p">
+<meta property="og:type" content="article">
+<meta property="og:title" content="作业">
+<meta property="og:url" content="http://yoursite.com/2018/03/28/hao/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="数组的定义： 1.数据类型[] 数组名 =  new 数据类型[数组长度] 例：int[] num = new int[5]; 表明定义一个整型类型的数组，数组名为num，数组长度为5。 int[] num = new int[]{ 3，4，2，5}; 注意： 1.数组下标从0开始，例：a(0),a(1)…. 2.java里要给数组分配空间。 数组的使用： public class Ex1{  p">
+<meta property="og:updated_time" content="2018-03-29T08:56:09.303Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="作业">
+<meta name="twitter:description" content="数组的定义： 1.数据类型[] 数组名 =  new 数据类型[数组长度] 例：int[] num = new int[5]; 表明定义一个整型类型的数组，数组名为num，数组长度为5。 int[] num = new int[]{ 3，4，2，5}; 注意： 1.数组下标从0开始，例：a(0),a(1)…. 2.java里要给数组分配空间。 数组的使用： public class Ex1{  p">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hao" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/03/28/hao/" class="article-date">
+  <time datetime="2018-03-28T08:48:56.000Z" itemprop="datePublished">2018-03-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      作业
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>数组的定义：</p>
+<p>1.数据类型[] 数组名 =  new 数据类型[数组长度]</p>
+<p>例：int[] num = new int[5];</p>
+<p>表明定义一个整型类型的数组，数组名为num，数组长度为5。</p>
+<pre><code>int[] num = new int[]{ 3，4，2，5};
+</code></pre><p>注意：</p>
+<p>1.数组下标从0开始，例：a(0),a(1)….</p>
+<p>2.java里要给数组分配空间。</p>
+<p>数组的使用：</p>
+<pre><code>public class Ex1{
+
+public static void main (String [] args){
+
+int [] num= new int[3];
+
+ num[0]=1;
+
+ num[1]=2;
+
+ num[2]=3;
+
+ }
+
+}
+</code></pre><p>注：这段代码表示我们先定义了一个整型类型的数组然后给数组分配了3个空间并给它们赋了值。</p>
+<p>数组和for循环结合使用：</p>
+<p>1.从键盘录入几个数，并打印输出到屏幕上。</p>
+<p>思路：我们可以使用for 循环和数组结合来使用，先定义一个数组，把键盘录入的几个数存放到数组中，再输出。</p>
+<pre><code>public class Ex2{
+
+public static void main(String [] args){
+
+ int [] num = new int[5];//定义一个数组，分配给它5个空间。
+
+int i;//定义 变量i为整型。
+
+ for(i=0;i&lt;=5;i++){
+
+   num [i]= input.nextInt[];//把录入的几个数存放到数组中
+
+ }
+
+  for（i=0;i&lt;=5;i++){
+
+    System.out.println(num[i]+&quot;\t&quot;);//输出录入的这几个数。
+
+}
+</code></pre><p>由上可见两者结合可以实现更多功能，我们再来看一个复杂一点的。</p>
+<p>2.从键盘录入几个数，实现输出最大值，最小值和平均值。</p>
+<pre><code>public class Ex3{
+
+public static void main(String [] args){
+
+Scanner input= new Scanner(System.in);
+
+ System.out.println(&quot;请输入5个数&quot;);//提示信息
+
+  double [] number= new double[5];//定义数组并分配空间。
+
+  int i;//定义变量
+
+ double max,min;//定义存放最大值最小值的变量
+
+ double avg,sum=0;//定义存放平均值和总和并赋初值。
+
+ for(i=0;i&lt;=4;i++){
+
+     number[i] = input.nextDoubled();//输出数组中的数
+
+}
+
+System.out.println(&quot;您输入的五个数为：&quot;);
+
+System.out.println();
+
+ max=number[0];//把数组中的一个数的值赋给变量Max
+
+min=number[1];
+
+for(i=0;i&lt;=4;i++){
+
+if(number[i]&gt;=max){//判断数组中的每一个数是否比max大
+
+  max=number[i];//如果大就把值赋给max
+
+}else if(number[i]&lt;=min){//如果小的话就放到min中
+
+  min=number[i];
+
+   }
+
+sum=sum+number[i];
+
+}
+
+avg=sum/(number.length-1);
+
+System.out.println(&quot;最大值为”+max);
+
+System.out.println(&quot;最小值为&quot;+min);
+
+System.out.println(&quot;平均值为&quot;+avg);//最后输出
+
+}
+
+}
+</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/03/28/hao/" data-id="cjfi02uxa000004vbai32qj2k" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2018/03/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/03/28/hao/">作业</a>
+          </li>
+        
+          <li>
+            <a href="/2018/03/28/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
